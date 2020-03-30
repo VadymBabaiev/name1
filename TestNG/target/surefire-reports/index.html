@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AuthorizationSuite" class="navigator-link">
+              <span class="suite-name border-passed">AuthorizationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AuthorizationSuite" class="navigator-link ">
+                    <span>C:\Users\Serhii_Zlobin\Desktop\Java\aqa-rd-java-q1\TestNG\src\main\resources\authorization.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AuthorizationSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AuthorizationSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AuthorizationSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AuthorizationSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AuthorizationSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AuthorizationSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AuthorizationSuite" class="hide-methods passed suite-AuthorizationSuite"> (hide)</a> <!-- hide-methods passed suite-AuthorizationSuite -->
+                      <a href="#" panel-name="suite-AuthorizationSuite" class="show-methods passed suite-AuthorizationSuite"> (show)</a> <!-- show-methods passed suite-AuthorizationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AuthorizationSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="RegistrationButtonIsClickableTest">RegistrationButtonIsClickableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="logInWithInvalidCredentialsTest">logInWithInvalidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="logInWithInvalidPasswordTest">logInWithInvalidPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="logInWithInvalidUsernameTest">logInWithInvalidUsernameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="logInWithValidCredentialsTest">logInWithValidCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="logOutTest">logOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="signUpLeavingAllMandatoryFieldsEmpty">signUpLeavingAllMandatoryFieldsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="signUpWithoutFillingEmailField">signUpWithoutFillingEmailField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="signUpWithoutFillingFullNameField">signUpWithoutFillingFullNameField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="signUpWithoutFillingPasswordField">signUpWithoutFillingPasswordField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AuthorizationSuite" title="tests.authorizationTests.AuthorizationPizzaLifeTests" class="method navigator-link" hash-for-method="signUpWithoutFillingUserNameField">signUpWithoutFillingUserNameField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AuthorizationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AuthorizationSuite" class="panel AuthorizationSuite">
+          <div class="suite-AuthorizationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.authorizationTests.AuthorizationPizzaLifeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationButtonIsClickableTest">
+                  </a> <!-- RegistrationButtonIsClickableTest -->
+                  <span class="method-name">RegistrationButtonIsClickableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithInvalidCredentialsTest">
+                  </a> <!-- logInWithInvalidCredentialsTest -->
+                  <span class="method-name">logInWithInvalidCredentialsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithInvalidPasswordTest">
+                  </a> <!-- logInWithInvalidPasswordTest -->
+                  <span class="method-name">logInWithInvalidPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithInvalidUsernameTest">
+                  </a> <!-- logInWithInvalidUsernameTest -->
+                  <span class="method-name">logInWithInvalidUsernameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentialsTest">
+                  </a> <!-- logInWithValidCredentialsTest -->
+                  <span class="method-name">logInWithValidCredentialsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutTest">
+                  </a> <!-- logOutTest -->
+                  <span class="method-name">logOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpLeavingAllMandatoryFieldsEmpty">
+                  </a> <!-- signUpLeavingAllMandatoryFieldsEmpty -->
+                  <span class="method-name">signUpLeavingAllMandatoryFieldsEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpWithoutFillingEmailField">
+                  </a> <!-- signUpWithoutFillingEmailField -->
+                  <span class="method-name">signUpWithoutFillingEmailField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpWithoutFillingFullNameField">
+                  </a> <!-- signUpWithoutFillingFullNameField -->
+                  <span class="method-name">signUpWithoutFillingFullNameField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpWithoutFillingPasswordField">
+                  </a> <!-- signUpWithoutFillingPasswordField -->
+                  <span class="method-name">signUpWithoutFillingPasswordField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpWithoutFillingUserNameField">
+                  </a> <!-- signUpWithoutFillingUserNameField -->
+                  <span class="method-name">signUpWithoutFillingUserNameField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AuthorizationSuite-class-passed -->
+        </div> <!-- panel AuthorizationSuite -->
+        <div panel-name="test-xml-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Serhii_Zlobin\Desktop\Java\aqa-rd-java-q1\TestNG\src\main\resources\authorization.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AuthorizationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Authorization&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.authorizationTests.AuthorizationPizzaLifeTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authorization --&gt;
+&lt;/suite&gt; &lt;!-- AuthorizationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AuthorizationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Authorization (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AuthorizationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AuthorizationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AuthorizationSuite');
+function tableData_AuthorizationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'logOutTest')
+data.setCell(0, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(0, 3, 2693);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logInWithValidCredentialsTest')
+data.setCell(1, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(1, 3, 1494);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logInWithInvalidPasswordTest')
+data.setCell(2, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(2, 3, 1397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logInWithInvalidCredentialsTest')
+data.setCell(3, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(3, 3, 1303);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUpWithoutFillingPasswordField')
+data.setCell(4, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(4, 3, 1268);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signUpWithoutFillingFullNameField')
+data.setCell(5, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(5, 3, 1239);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUpWithoutFillingEmailField')
+data.setCell(6, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(6, 3, 1193);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logInWithInvalidUsernameTest')
+data.setCell(7, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(7, 3, 1191);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signUpWithoutFillingUserNameField')
+data.setCell(8, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(8, 3, 1168);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signUpLeavingAllMandatoryFieldsEmpty')
+data.setCell(9, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(9, 3, 1102);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RegistrationButtonIsClickableTest')
+data.setCell(10, 2, 'tests.authorizationTests.AuthorizationPizzaLifeTests')
+data.setCell(10, 3, 690);
+window.suiteTableData['AuthorizationSuite']= { tableData: data, tableDiv: 'times-div-AuthorizationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-AuthorizationSuite">
+              </div> <!-- times-div-AuthorizationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AuthorizationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AuthorizationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.authorizationTests.AuthorizationPizzaLifeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationButtonIsClickableTest</span>
+                <span class="method-start">11535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithInvalidCredentialsTest</span>
+                <span class="method-start">24575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithInvalidPasswordTest</span>
+                <span class="method-start">37648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithInvalidUsernameTest</span>
+                <span class="method-start">53112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentialsTest</span>
+                <span class="method-start">66941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logOutTest</span>
+                <span class="method-start">80565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83259 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpLeavingAllMandatoryFieldsEmpty</span>
+                <span class="method-start">95630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpWithoutFillingEmailField</span>
+                <span class="method-start">109493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpWithoutFillingFullNameField</span>
+                <span class="method-start">122431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpWithoutFillingPasswordField</span>
+                <span class="method-start">135557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">136827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">137436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpWithoutFillingUserNameField</span>
+                <span class="method-start">148770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149939 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

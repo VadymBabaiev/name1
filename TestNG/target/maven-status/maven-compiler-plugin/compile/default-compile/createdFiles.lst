@@ -1,0 +1,14 @@
+pages\BasePage.class
+pages\ProductPage.class
+fragments\buttonsBlock\ButtonsBlock.class
+pages\CartPage.class
+pages\HomePage.class
+pages\LogInPage.class
+fragments\dishesBlock\DishesBlock.class
+pages\UserProfilePage.class
+pages\SearchPage.class
+fragments\phoneBlock\PhoneBlock.class
+pages\LogOutPage.class
+pages\RegistrationPage.class
+constants\Constants.class
+pages\AuthorizationChoicePage.class

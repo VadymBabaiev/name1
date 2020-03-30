@@ -1,0 +1,3 @@
+tests\cartTests\PizzaLifeCartTests.class
+tests\authorizationTests\AuthorizationPizzaLifeTests.class
+tests\contactsTest\PizzaLifeContactsTest.class
